@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files di Python
+__pycache__/
+*.py[cod]
+
+# Cartelle di build e distribuzione
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+pip-wheel-metadata/
+
+# Configurazioni degli IDE / Editor
+.vscode/
+.idea/
+
+# File di log
+*.log
+
+# File di database SQLite (non versionarli in produzione)
+*.sqlite3
+db.sqlite3
+
+# File di configurazione locale / segreti
+.env
+local_settings.py
+
+# Cache di tool Python (mypy, pytest, ecc.)
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytest_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Static e media (se generati dinamicamente e non necessari nel repository)
+staticfiles/
+media/
