@@ -144,4 +144,4 @@ REST_FRAMEWORK = {
     ),
 }
 
-DJOSER={"USER_ID_FIELD":"username"}
+DJOSER = {"USER_ID_FIELD": "username"}
